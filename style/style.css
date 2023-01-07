@@ -4,7 +4,9 @@
 
 }
 
-.banner {
+
+.header {
+    
     background-image: url(../images/banner/banner3.png);
     background-size: cover;
     background-position: center;
@@ -12,17 +14,16 @@
     background-repeat: no-repeat;
 }
 
-.banner-content {
+.header-contant {
 
     position: absolute;
-
     right: 845px;
     top: 200px;
     padding-left: 20px;
 
 }
 
-.banner-title {
+.header-title {
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 50px;
@@ -30,98 +31,111 @@
     color: #FFFFFF;
 }
 
-.banner-dis {
+.header-display {
     font-weight: 400;
     font-size: 16px;
     text-align: left;
     color: #070101;
 }
-.button-primary{
+
+.button-primary {
     margin-top: 10px;
     width: 130px;
-height: 50px;
-border: none;
-border-radius: 5px;
-font-weight: 600;
-font-size: 20px;
-text-align: center;
-color: #005FAC;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #005FAC;
 }
-/* section-1 start */
-.section-1{
+
+/* section-fast start */
+.section-fast {
     width: 100%;
     padding: 100px 0px;
 
 }
-.section-1 img{
+
+.section-fast img {
     width: 569px;
-height: 700px;
+    height: 700px;
 }
-.section-1-text{
+
+.section-fast-text {
     width: 550px;
-    
+
 }
-.main{
+
+.main {
     display: flex;
     gap: 87px;
     align-items: center;
     margin-right: 200px;
     margin-left: 206px;
 }
-.section-1-title{
+
+.section-fast-title {
     margin-bottom: 10px;
     font-weight: 700;
-font-size: 40px;
+    font-size: 40px;
 }
-.section-1-dis{
+
+.section-fast-catagori {
     margin-bottom: 8px;
     font-size: 16px;
     color: #444343;
 }
-.catagory{
+
+.catagori {
     color: #444343;
 }
-/* My plan start */
-.my-plan-title{
+
+/*  plan start */
+.i-plan-title {
     font-weight: 700;
-font-size: 40px;
-text-align: center;
-color: #151414;
+    font-size: 40px;
+    text-align: center;
+    color: #151414;
 
 
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     gap: 30px;
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 20px;
-    
-    
+
+
 }
-.plan-title{
+
+.plan-title {
     font-weight: 700;
-font-size: 30px;
-color: #151414;
+    font-size: 30px;
+    color: #151414;
 }
-.plan-dis{
+
+.plan-dis {
     font-weight: 500;
-font-size: 25px;
-color: #737272;
+    font-size: 25px;
+    color: #737272;
 }
+
 /* extra part */
-.extra{
+.extra {
     margin: 100px auto;
     width: 80%;
-    background-image:url(../images/gradient1.png), url(../images/watch.png);
+    background-image: url(../images/gradient1.png), url(../images/watch.png);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
     text-align: left;
     padding: 100px 50px;
 }
+
 /* contact information */
 .contact {
     display: flex;
@@ -159,7 +173,23 @@ input {
     font-weight: 400;
     font-size: 16px;
     color: #ffffff;
+    
 }
-footer{
+
+
+.btn-primary{
+    background-color: #005FAC;
+    margin-top: 10px;
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+footer {
     color: #FFFFFF;
 }
