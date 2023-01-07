@@ -124,8 +124,8 @@
     color: #737272;
 }
 
-/* next part */
-.next {
+/* extra part */
+.extra {
     margin: 100px auto;
     width: 80%;
     background-image: url(../images/gradient1.png), url(../images/watch.png);
