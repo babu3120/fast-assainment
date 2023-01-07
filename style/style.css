@@ -92,34 +92,36 @@
 }
 
 /*  plan start */
-.my-plan-title{
+.my-plan-title {
+    text-align:center;
     font-weight: 700;
-font-size: 40px;
-text-align: center;
-color: #151414;
+    font-size: 40px;
+    color: #151414;
 
 
 }
 
-.plan-container{
+.plan-container {
     display: flex;
     gap: 30px;
     text-align: center;
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 20px;
-    
-    
+
+
 }
-.plan-title{
+
+.plan-title {
     font-weight: 700;
-font-size: 30px;
-color: #151414;
+    font-size: 30px;
+    color: #151414;
 }
-.plan-dis{
+
+.plan-dis {
     font-weight: 500;
-font-size: 25px;
-color: #737272;
+    font-size: 25px;
+    color: #737272;
 }
 
 /* extra part */
@@ -171,11 +173,11 @@ input {
     font-weight: 400;
     font-size: 16px;
     color: #ffffff;
-    
+
 }
 
 
-.btn-primary{
+.btn-primary {
     background-color: #005FAC;
     margin-top: 10px;
     width: 130px;
