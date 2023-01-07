@@ -6,7 +6,7 @@
 
 
 .header {
-    
+    display: flex;
     background-image: url(../images/banner/banner3.png);
     background-size: cover;
     background-position: center;
@@ -92,7 +92,7 @@
 }
 
 /*  plan start */
-.i-plan-title {
+.i-pogram-title {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -101,7 +101,7 @@
 
 }
 
-.plan-container {
+.pogram-container {
     display: flex;
     gap: 30px;
     text-align: center;
@@ -112,20 +112,20 @@
 
 }
 
-.plan-title {
+.pogram-title {
     font-weight: 700;
     font-size: 30px;
     color: #151414;
 }
 
-.plan-dis {
+.pogram-dis {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
 }
 
-/* extra part */
-.extra {
+/* next part */
+.next {
     margin: 100px auto;
     width: 80%;
     background-image: url(../images/gradient1.png), url(../images/watch.png);
@@ -155,16 +155,16 @@
 .contact input[type="text"],
 input[type="email"],
 textarea {
-    margin-bottom: 24px;
+    margin-bottom: 10px;
     border: 0;
     width: 100%;
-    padding: 30px 18px;
+    padding: 5px 5px;
 
 
 }
 
 input {
-    height: 64px;
+    height: 60px;
 }
 
 .contact-discription {
@@ -190,6 +190,6 @@ input {
     color: #FFFFFF;
 }
 
-footer {
+.footer {
     color: #FFFFFF;
 }
