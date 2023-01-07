@@ -92,7 +92,7 @@
 }
 
 /*  plan start */
-.i-pogram-title {
+.i-plan-title {
     font-weight: 700;
     font-size: 40px;
     text-align: center;
@@ -101,7 +101,7 @@
 
 }
 
-.pogram-container {
+.plan-container {
     display: flex;
     gap: 30px;
     text-align: center;
@@ -112,20 +112,20 @@
 
 }
 
-.pogram-title {
+.plan-title {
     font-weight: 700;
     font-size: 30px;
     color: #151414;
 }
 
-.pogram-dis {
+.plan-dis {
     font-weight: 500;
     font-size: 25px;
     color: #737272;
 }
 
-/* next part */
-.next {
+/* extra part */
+.extra {
     margin: 100px auto;
     width: 80%;
     background-image: url(../images/gradient1.png), url(../images/watch.png);
@@ -164,7 +164,7 @@ textarea {
 }
 
 input {
-    height: 60px;
+    height: 6px;
 }
 
 .contact-discription {
